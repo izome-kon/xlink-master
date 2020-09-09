@@ -1,0 +1,176 @@
+name: beda3a
+description: Beda3a application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+  concentric_transition:
+  provider:
+  kumi_popup_window:
+  shared_preferences:
+  audioplayer:
+  path_provider:
+  dio:
+  flutter_login:
+  introduction_screen:
+  # convex_bottom_bar:
+  flutter_bloc:
+  cached_network_image:
+  auto_size_text:
+  equatable:
+  flutter_swiper:
+  sliding_sheet:
+  jiffy:
+  badges: ^1.1.1
+  flutter_slidable: ^0.5.4
+  awesome_dialog: ^1.1.3
+  avatar_glow: ^1.2.0
+  image_cropper: ^1.2.1
+  image_picker: ^0.6.5+3
+  pull_to_refresh: ^1.6.1
+  url_launcher: ^5.4.11
+  feature_discovery: ^0.12.0+2
+  in_app_update: ^1.1.11
+  zendesk:
+  firebase_messaging: ^6.0.16
+  full_screen_image:
+  expansion_tile_card: ^1.1.0
+  # firebase_messaging: ^6.0.16
+  # jiffy: ^3.0.1
+
+  # flutter_spinkit: ^4.1.2+1
+  flutter_local_notifications:
+
+  # sliding_sheet: ^0.2.12
+  # splashscreen: ^1.2.0
+  # rflutter_alert: ^1.0.3
+  # shared_preferences: ^0.5.6+3
+  # url_launcher: ^5.4.11
+  # zendesk: ^1.0.2
+  # flutter_slidable: ^0.5.4
+  # flutter_widget_from_html_core: ^0.4.1
+  # provider: ^4.0.5
+  # page_transition: ^1.1.5
+  # auto_animated: ^2.0.2
+  # audioplayer: ^0.8.1
+  # path_provider: ^1.1.2
+  # auto_size_text: ^2.1.0
+  # cached_network_image: ^2.1.0+1
+  # xlive_switch: ^1.0.5
+  # dio: ^3.0.9
+  # image_cropper: ^1.2.1
+  # image_picker: ^0.6.5+3
+
+
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/appStoreLogo.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/logo.gif
+    - assets/images/dark_logo.png
+    - assets/images/customer-service.png
+    - assets/images/resetPassword.png
+
+    - assets/images/welcome-page3.png
+    - assets/images/welcome_page3_BG.png
+    - assets/images/welcome_page2_BG.png
+    - assets/images/welcome_page2.png
+    - assets/images/welcome_page1_BG.png
+    - assets/images/welcome_page1.png
+    - assets/images/chat.png
+    - assets/images/cart_image.png
+    - assets/images/add_photo.png
+    - assets/images/order.png
+    - assets/images/empty-cart.png
+    - assets/images/box.png
+    - assets/images/discount-voucher.png
+    - assets/images/LogoBG.png
+    - assets/images/logoStrok.png
+    - assets/images/appStoreLogo.png
+    - assets/images/logoLight.gif
+    - assets/audios/Box-drop-sound-effect.mp3
+    - assets/audios/Button-click-sound-effect.mp3
+    - assets/audios/Button-click-sound.mp3
+    - assets/audios/Coin-sound-effect.mp3
+    - assets/audios/Electric-spark-sound-effect.mp3
+    - assets/audios/Error-beep-sound-effect.mp3
+    - assets/audios/Error-sound.mp3
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: headerEnglishFont
+      fonts:
+        - asset: assets/fonts/Arciform.otf
+    - family: bodyEnglishFont
+      fonts:
+        - asset: assets/fonts/Bellota-Bold.ttf
+    - family: arabicFont-Medium
+      fonts:
+        - asset: assets/fonts/Tajawal-Medium.ttf
+    - family: arabicFont-Light
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+    - family: logoFont
+      fonts:
+        - asset: assets/fonts/Lalezar-Regular.ttf
+
+    
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

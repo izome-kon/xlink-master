@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "3630203611",
+    "firebase_url": "https://beda3a-7e1fb.firebaseio.com",
+    "project_id": "beda3a-7e1fb",
+    "storage_bucket": "beda3a-7e1fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3630203611:android:8f02a8a428b37f0ce202fe",
+        "android_client_info": {
+          "package_name": "beda3aapp.flutter.io.beda3aapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3630203611-r2jgc5s4gbpn1q8t8923onotle3ssna3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv6KLbsyjedwCSzVzMN5LxvGs747z0ZrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3630203611-r2jgc5s4gbpn1q8t8923onotle3ssna3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

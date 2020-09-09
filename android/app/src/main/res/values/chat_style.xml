@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base chat sdk theme. -->
+    <style name="ZopimChatTheme" parent="ZopimChatTheme.Light">
+        <!-- Customize chat theme here. -->
+        <item name="colorAccent">@color/sample_red</item>
+        <item name="colorPrimary">@color/sample_red</item>
+        <item name="colorPrimaryDark">@color/sample_dark_red</item>
+    </style>
+
+    <!--Customize toolbar that replaces action bar-->
+    <style name="zopim_toolbar" parent="_zopim_toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <!--Customize not agents button-->
+    <style name="no_agents_button">
+        <item name="android:background">@color/sample_red</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Customize where chat widget appears-->
+    <style name="chat_widget" parent="_chat_widget">
+        <item name="anchor">bottom_right</item>
+    </style>
+
+    <!--Customize chat colors-->
+    <color name="chat_bubble_visitor">@color/sample_red</color>
+
+
+    <string name="input_field_hint">أدخل رسالة</string>
+    <string name="chat_agent_left_message">%1$s غادر المحاثة</string>
+    <string name="chat_agent_joined_message">%1$s أنضم للمحادثة</string>
+    <string name="chat_menu_end_button">إنهاء المحادثة</string>
+    <string name="chat_ended_message">تم إنهاء المحادثة</string>
+    <string name="chat_session_timeout_message">لم تقم بالرد لفترة طويلة لذا قد تم إنهاء هذه الجلسة .. يرجى الإرسال مره أخرى لبدأ جلسة جديدة إذا كان لا يزال لديك أسئلة</string>
+    <string name="chat_visitor_queue_message">يرجى الإنتظار سيتم الرد عليك في أسرع وقت. يوجد %1$s زوار في قائمة الإنتظار.</string>
+
+    <!--Chat fragment-->
+    <string name="chat_loading_message">بدأ المحادثة..</string>
+
+    <!--Email transcript dialog-->
+    <string name="email_transcript_title">إرسال للبريد؟</string>
+    <string name="email_transcript_message">أرسل نسخة من هذه الدردشة إلى عنوان بريدك الإلكتروني</string>
+    <string name="email_transcript_email_message">الرجاء إدخال عنوان البريد الإلكتروني الخاص بك</string>
+    <string name="email_transcript_email_hint">"email@address.com"</string>
+    <string name="email_transcript_confirm_button">إرسال</string>
+    <string name="email_transcript_cancel_button">شكراً لا ترسل</string>
+
+    <!--Chat end confirm dialog-->
+    <string name="chat_end_dialog_title">إنهاء هذه المحادثة؟</string>
+    <string name="chat_end_dialog_message">سيتم إغلاق جلسة الدردشة الخاصة بك</string>
+    <string name="chat_end_dialog_confirm_button">إنهاء المحاثة</string>
+    <string name="chat_end_dialog_cancel_button">إالغاء</string>
+
+    <!--Reconnection timeout dialog-->
+    <string name="reconnect_timeout_title">انقطع الاتصال</string>
+    <string name="reconnect_timeout_message">لم نتمكن من إعادة الاتصال. هل ترغب في الاستمرار في المحاولة؟</string>
+    <string name="reconnect_timeout_confirm_button">نعم</string>
+    <string name="reconnect_timeout_cancel_button">لا</string>
+
+     <string name="pre_chat_email_hint">البريد الإلكتروني</string>
+    <string name="pre_chat_email_error_message">البريد الالكتروني مطلوب</string>
+    <string name="pre_chat_email_error_hint">الرجاء إدخال عنوان البريد الإلكتروني</string>
+    <string name="pre_chat_name_hint">الإسم</string>
+    <string name="pre_chat_name_error_message">الإسم مطلوب</string>
+    <string name="pre_chat_name_error_hint">برجاء إدخال أسمك</string>
+    <string name="pre_chat_phone_hint">رقم الهاتف</string>
+    <string name="pre_chat_phone_error_message">رقم الهاتف المحمول مطلوب</string>
+    <string name="pre_chat_phone_error_hint">برجاء إدخال رقم هاتفك المحمول</string>
+    <string name="pre_chat_departments_hint">اختر القسم</string>
+    <string name="pre_chat_departments_error_message">القسم مطلوب</string>
+    <string name="pre_chat_departments_error_hint">يرجى تحديد قسم</string>
+    <string name="pre_chat_message_hint">رسالة</string>
+    <string name="pre_chat_message_error_message">الرسالة مطلوبة</string>
+    <string name="pre_chat_message_error_hint">من فضلك أدخل رسالة</string>
+    <string name="pre_chat_menu_next_button">التالي</string>
+    <string name="pre_chat_validation_error_message">يرجى تصحيح الأخطاء المذكورة أعلاه</string>
+    <string name="required_field_template">%1$s *</string>
+
+    <string name="no_agents_title">الدعم المباشر غير متاح</string>
+    <string name="no_agents_message">عذرا لا يوجد وكلاء متاحين للدردشة. يرجى المحاولة مرة أخرى في وقت لاحق أو ترك لنا رسالة.</string>
+    <string name="offline_message_button">اترك رسالة</string>
+
+    <string name="no_connectivity_toast_message">لا يوجد اتصال</string>
+    <string name="reconnecting_toast_message">جاري إعادة الاتصال ...</string>
+
+
+    <string name="offline_menu_send_button">إرسال</string>
+    <string name="offline_validation_error_message">يرجى تصحيح الأخطاء المذكورة أعلاه</string>
+    <string name="offline_sent_confirmation_message">تم ارسال رسالتك</string>
+    <string name="offline_email_hint">البريد الإلكتروني</string>
+    <string name="offline_email_error_message">البريد الإلكتروني مطلوب</string>
+    <string name="offline_email_error_hint">الرجاء إدخال البريد الإلكتروني</string>
+    <string name="offline_name_hint">الإسم</string>
+    <string name="offline_name_error_message">الإسم مطلوب</string>
+    <string name="offline_name_error_hint">الرجاء إدخال إسمك</string>
+    <string name="offline_message_hint">رسالة</string>
+    <string name="offline_message_error_message">الرسالة مطلوبة</string>
+    <string name="offline_message_error_hint">الرجاء إدخال رسالة</string>
+    <string name="offline_message_send_failed">غير قادر على إرسال الرسالة</string>
+    <string name="offline_message_retry_button">أعد المحاولة</string>
+    <string name="offline_message_cancel_button">إلغاء</string>
+
+    <string name="chat_push_chat_ended_body">المحادثة مع %1$s انتهت</string>
+    <string name="chat_push_chat_ended_title">انتهت المحادثة</string>
+
+    <!--Animation : typing indicator-->
+    <integer name="typing_dot_duration">300</integer>
+    <!--Animation : widget cross-fade-->
+    <integer name="crossfade_duration">300</integer>
+
+    <style name="chat_widget_background">
+        // style this view
+    </style>
+
+    <style name="chat_widget_unread_notification">
+        // style this view
+    </style>
+
+    <!-- dimensions -->
+    <dimen name="widget_vertical_margin">16dp</dimen>
+    <dimen name="widget_horizontal_margin">16dp</dimen>
+    <dimen name="widget_width">50dp</dimen>
+    <dimen name="widget_height">50dp</dimen>
+
+    <!-- colors -->
+    <color name="typing_indicator_primary">#40FFFFFF</color>
+    <color name="typing_indicator_secondary">#0DFFFFFF</color>
+</resources>
